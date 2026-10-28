@@ -17,4 +17,15 @@ npm run build
 npm run preview
 ```
 
+## Public deployment
+
+The `main` branch deploys automatically to GitHub Pages through
+`.github/workflows/deploy-pages.yml`. After GitHub Pages is enabled for the
+repository with **Settings → Pages → Source: GitHub Actions**, the public site
+is available at:
+
+```text
+https://akhilreddy-dev1.github.io/physics-virtual-lab/
+```
+
 The measurements are intentionally simulated for teaching. Each experiment keeps the requested reference equation visible and labels the simulated nature of the values; real lab calibration and uncertainty analysis should be added before using the tool for assessment.
